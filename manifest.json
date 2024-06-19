@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "focus time",
+  "version": "1.0",
+  "description": "add focus div at the top of every tab",
+
+  "content_scripts": [
+    {
+      "js": ["temp.js"],
+      "css": ["temp.css"],
+      "matches": [
+            "<all_urls>"
+      ]
+    }
+  ]
+}
+

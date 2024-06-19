@@ -1,0 +1,15 @@
+
+.focus-strip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ff5722;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1px;
+  z-index: 999999 !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional: Adds a shadow to make it more distinct */
+}
